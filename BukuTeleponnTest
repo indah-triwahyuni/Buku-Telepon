@@ -1,0 +1,160 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package indah;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+/**
+ *
+ * @author lenovo
+ */
+public class BukuTeleponnTest {
+    
+    public BukuTeleponnTest() {
+    }
+    
+    @BeforeClass
+    public static void setUpClass() {
+    }
+    
+    @AfterClass
+    public static void tearDownClass() {
+    }
+    
+    @Before
+    public void setUp() {
+    }
+    
+    @After
+    public void tearDown() {
+    }
+
+    /**
+     * Test of getNama method, of class BukuTeleponn.
+     */
+    @Test
+    public void testGetNama() {
+        System.out.println("getNama");
+        BukuTeleponn instance = new BukuTeleponn();
+        String expResult = "";
+        String result = instance.getNama();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of setNama method, of class BukuTeleponn.
+     */
+    @Test
+    public void testSetNama() {
+        System.out.println("setNama");
+        String Nama = "";
+        BukuTeleponn instance = new BukuTeleponn();
+        instance.setNama(Nama);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of getTelepon method, of class BukuTeleponn.
+     */
+    @Test
+    public void testGetTelepon() {
+        System.out.println("getTelepon");
+        BukuTeleponn instance = new BukuTeleponn();
+        String expResult = "";
+        String result = instance.getTelepon();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of setTelepon method, of class BukuTeleponn.
+     */
+    @Test
+    public void testSetTelepon() {
+        System.out.println("setTelepon");
+        String Telepon = "";
+        BukuTeleponn instance = new BukuTeleponn();
+        instance.setTelepon(Telepon);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of getEmail method, of class BukuTeleponn.
+     */
+    @Test
+    public void testGetEmail() {
+        System.out.println("getEmail");
+        BukuTeleponn instance = new BukuTeleponn();
+        String expResult = "";
+        String result = instance.getEmail();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of setEmail method, of class BukuTeleponn.
+     */
+    @Test
+    public void testSetEmail() {
+        System.out.println("setEmail");
+        String Email = "";
+        BukuTeleponn instance = new BukuTeleponn();
+        instance.setEmail(Email);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of getAlamat method, of class BukuTeleponn.
+     */
+    @Test
+    public void testGetAlamat() {
+        System.out.println("getAlamat");
+        BukuTeleponn instance = new BukuTeleponn();
+        String expResult = "";
+        String result = instance.getAlamat();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of setAlamat method, of class BukuTeleponn.
+     */
+    @Test
+    public void testSetAlamat() {
+        System.out.println("setAlamat");
+        String Alamat = "";
+        BukuTeleponn instance = new BukuTeleponn();
+        instance.setAlamat(Alamat);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of main method, of class BukuTeleponn.
+     */
+    @Test
+    public void testMain() {
+        System.out.println("main");
+        String[] args = null;
+        BukuTeleponn.main(args);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+    
+}
